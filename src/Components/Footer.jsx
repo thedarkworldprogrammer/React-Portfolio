@@ -9,7 +9,7 @@ const Footer = () => {
       <div className="flex justify-between mt-6 border-t-8 py-5 px-4">
         <div>
           <h1 className="font-bold text-2xl">Himanshu Kumar Tiwari</h1>
-          <p className="w-80">
+          <p className="w-fit">
             MERN Stack Developer building modern, responsive web applications.
           </p>
         </div>
@@ -32,7 +32,7 @@ const Footer = () => {
         </div>
         <div>
           <h2 className="font-bold">Connect</h2>
-          <div className="flex gap-4">
+          <div className="flex gap-4 md:flex-row flex-col items-center">
             <span class="[&>svg]:h-5 [&>svg]:w-5">
               <svg
                 xmlns="http://www.w3.org/2000/svg"

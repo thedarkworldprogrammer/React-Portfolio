@@ -15,7 +15,7 @@ const About = () => {
           here! you will be able to know all about myself.
         </p>
       </div>
-      <div className="w-full h-[500px] mt-6 rounded-sm flex">
+      <div className="w-full h-fit mt-6 rounded-sm flex md:flex-row flex-col items-center gap-5 px-4">
         {/* about image */}
         <div className="w-[50%] h-full flex justify-start ml-3">
           <img
@@ -25,7 +25,7 @@ const About = () => {
           />
         </div>
         {/* about name */}
-        <div className="w-[50%] h-full border border-s-amber-700 p-4 shadow-lg shadow-slate-900 rounded-lg">
+        <div className="w-fit h-full border border-s-amber-700 p-4 shadow-lg shadow-slate-900 rounded-lg">
           <div className="text-2xl">
             <h2 className="font-bold">Hello!</h2>
             <h3 className="animate-colorCycle font-bold">
